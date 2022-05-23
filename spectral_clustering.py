@@ -1,7 +1,7 @@
 import numpy as np
 from scipy.io import loadmat
 from scipy.spatial.distance import pdist, squareform
-import kmeans
+import kMeans
 
 class spectralClustering:
     def __init__(self, sigma=5, neighbors=10):
